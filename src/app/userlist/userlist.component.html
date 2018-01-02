@@ -1,0 +1,7 @@
+<div *ngFor = "let name of arrayUserList">
+  <app-user-item [userName] = "name"></app-user-item>
+</div>
+<div>
+  <label>close and save data to db</label>
+  <button (click) = "onSaveData()">testelectron</button>
+</div>
